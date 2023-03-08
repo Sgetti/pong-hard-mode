@@ -18,9 +18,6 @@ paddle.turn(Direction.Left, 90)
 ball.turn(Direction.Left, 0)
 radio.setGroup(69)
 basic.forever(function () {
-    basic.showNumber(ball.get(LedSpriteProperty.Direction))
-})
-basic.forever(function () {
     random = randint(-180, 180)
 })
 basic.forever(function () {
